@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+float sal, salm, quant; 
+    printf("Digite o valor salário:");
+    scanf("%f", &sal);
+    printf ("Digite o valor do salário mínimo:");
+    scanf("%f", &salm);
+    quant = (sal/salm);
+    printf ("\n A quantidade de salário e: %f\n", quant);
+    return 0;
+}
