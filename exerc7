@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    float pfab,prlucro,imp,valorluc,valorimp,prfinal; 
+    printf("Digite o preço da fábrica:");
+    scanf("%f", &pfab);
+    printf ("Digite o percentual de lucro do distribuidor:");
+    scanf("%f", &prlucro);
+    printf("Digite o percentual do imposto:");
+    scanf("%f",&imp);
+    valorluc = (prlucro * pfab)/100;
+    printf("O percentual do lucro do distribuidor e: %f", valorluc);
+    valorimp = (imp * pfab)/100;
+    printf("O percentual do imposto e: %f", valorimp);
+    prfinal = pfab + valorluc - valorimp;
+    printf ("\n O preço final e: %f\n", prfinal);
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+int n, q,q1, mpar, mimp;
+for(n=1; n<=10; n++){
+printf("Digite a média do número par");
+scanf("%i",&mpar);
+printf("Digite a média do número ímpar");
+scanf("%i",&mimp);
+mpar = n/q;
+q++;
+mimp = n/q1;
+q1++;
+}
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+    float sal, perc, valora, novsal; 
+    printf("Digite o valor do salário:");
+    scanf("%f", &sal);
+    printf ("Digite o percentual do aumento:");
+    scanf("%f", &perc);
+    valora = valora + (sal * perc)/100;
+    novsal = sal + valora;
+    printf ("\n O novo salário do funcionário e: %i\n", novsal);
+    return 0;
+}
